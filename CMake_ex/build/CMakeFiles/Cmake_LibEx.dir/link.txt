@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/Cmake_LibEx.dir/src/main.cpp.o  -o Cmake_LibEx MyMathLib/libMyMath.a 

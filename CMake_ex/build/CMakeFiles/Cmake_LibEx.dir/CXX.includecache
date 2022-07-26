@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../MyMathLib/mysqrt.h
+cmath
+-
+
+../MyMathLib/mysquare.h
+cmath
+-
+
+/home/wonhyuk/ros_hyundai/CMake_ex/src/main.cpp
+iostream
+-
+cstdlib
+-
+mysqrt.h
+/home/wonhyuk/ros_hyundai/CMake_ex/src/mysqrt.h
+mysquare.h
+/home/wonhyuk/ros_hyundai/CMake_ex/src/mysquare.h
+
